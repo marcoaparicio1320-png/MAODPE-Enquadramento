@@ -62,21 +62,10 @@
 
 
 \pagenumbering{roman}
-\section*{Resumo}
-\orientacao{Apresentar, de forma sucinta, o tema, o âmbito da revisão, os principais aspetos analisados e as conclusões decorrentes da análise crítica do conhecimento existente. Extensão sugerida: 150 a 250 palavras.}
-\section*{Palavras-chave}
-\orientacao{Indicar entre três e cinco palavras-chave representativas do tema e do conteúdo do documento.}
-\clearpage
-\section*{Reconhecimento do uso de ferramentas IA}
-Reconheço o uso de \textit{[inserir sistema(s) de IA e respetiva hiperligação]} para \textit{[indicar utilização específica de IA ou outras tarefas]}. Reconheço a utilização de \textit{[indicar software, código ou plataforma]} para \textit{[indicar utilização específica de software, código ou plataforma ou para outras tarefas]}.
 
-\medskip
-\orientacao{Exemplo 1: Reconheço a utilização do ChatGPT 3.5 (Open AI, \url{https://chat.openai.com}) para resumir as notas iniciais e para rever o rascunho final, a utilização do Office365 (Microsoft, \url{https://www.office.com}) para a escrita do texto.}
+\input{sections/02_resumo}
+\input{sections/03_UsoIA}
 
-\orientacao{Exemplo 2: Não foram utilizados no presente trabalho quaisquer conteúdos gerados por tecnologias de IA.}
-
-\orientacao{O estudante deverá adaptar a declaração à utilização efetiva das tecnologias e ferramentas de apoio, eliminando os exemplos e os textos orientadores na versão de entrega.}
-\clearpage
 \tableofcontents
 \clearpage
 \pagenumbering{arabic}
@@ -133,10 +122,7 @@ Estudo C & Abordagem experimental & Validação em condições reais & Aplicabil
 \end{table}
 
 \clearpage
-\phantomsection
-\section*{Referências bibliográficas}
-\addcontentsline{toc}{section}{Referências bibliográficas}
-\orientacao{Incluir todas as fontes citadas ao longo do documento, privilegiando fontes científicas e técnicas relevantes e credíveis. O estilo de referenciação bibliográfica (IEEE, APA, entre outros) é de escolha livre, devendo ser utilizado de forma consistente ao longo de todo o documento. O estilo apresentado neste template é meramente exemplificativo e não tem caráter vinculativo. Todas as referências devem ser citadas no texto. Não existe limite para o número de referências bibliográficas.}
-\orientacao{Exemplos de citação individual \cite{einstein:1905} e múltipla \cite{dirac:1981,knuthwebsite:2016}. Eliminar estes exemplos na versão de entrega.}
-\printbibliography[heading=none]
+
+\input{sections/99_Referências}
+
 \end{document}
